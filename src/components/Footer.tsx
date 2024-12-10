@@ -112,10 +112,10 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row">
             <input
               type="email"
-              placeholder="Enter your email"
-              className="w-full md:w-20 px-4 py-2 text-gray-800 border border-gray-300 bg-[#FFFFFF26] focus:outline-none focus:ring-2 focus:ring-blue-500 mb-4 md:mb-0"
+              placeholder="Email"
+              className="w-full h-8 md:w-20 px-2 py-2 text-white text-[12px] border border-gray-300 bg-[#FFFFFF26] focus:outline-none focus:ring-2 focus:ring-blue-500 mb-4 md:mb-0"
             />
-            <button className="w-full md:w-auto px-6 py-2 bg-white text-[#2A254B] text-sm  hover:bg-[#FFFFFF26] hover:text-white transition duration-300 ">
+            <button className="w-full h-8 md:w-20 px-2 py-2 bg-white text-[#2A254B] text-[10px]  hover:bg-[#FFFFFF26] hover:text-white transition duration-300 ">
               Sign Up
             </button>
           </div>
@@ -127,21 +127,21 @@ const Footer = () => {
       <div className="flex justify-between items-center">
         {/* Left: All Rights Reserved */}
         <div className="text-gray-400 text-sm">
-          <p>© 2024 Your Company. All Rights Reserved.</p>
+          <p>© 2024 Globe Wood. All Rights Reserved.</p>
         </div>
         {/* Right: Social Media Icons */}
-        <div className="space-x-6">
+        <div className="space-x-2">
           <a href="#" className="text-gray-400 hover:text-blue-500">
-          <FontAwesomeIcon icon={faFacebook} className="text-gray-600 hover:text-blue-600 w-5 h-5" />
+          <FontAwesomeIcon icon={faFacebook} className="text-gray-600 hover:text-blue-600 w-2 h-2 sm:w-3 sm:h-3 md:w-5 md:h-5 lg:w-5 lg:h-5 xl:w-5 xl:h-5 2xl:w-5 2xl:h-5" />
           </a>
           <a href="#" className="text-gray-400 hover:text-blue-500">
-          <FontAwesomeIcon icon={faTwitter} className="text-gray-600 hover:text-blue-400 w-5 h-5" />
+          <FontAwesomeIcon icon={faTwitter} className="text-gray-600 hover:text-blue-400 w-2 h-2 sm:w-3 sm:h-3 md:w-5 md:h-5 lg:w-5 lg:h-5 xl:w-5 xl:h-5 2xl:w-5 2xl:h-5" />
           </a>
           <a href="#" className="text-gray-400 hover:text-blue-500">
-          <FontAwesomeIcon icon={faInstagram} className="text-gray-600 hover:text-pink-500 w-5 h-5" />
+          <FontAwesomeIcon icon={faInstagram} className="text-gray-600 hover:text-pink-500 w-2 h-2 sm:w-3 sm:h-3 md:w-5 md:h-5 lg:w-5 lg:h-5 xl:w-5 xl:h-5 2xl:w-5 2xl:h-5" />
           </a>
           <a href="#" className="text-gray-400 hover:text-blue-500">
-          <FontAwesomeIcon icon={faLinkedin} className="text-gray-600 hover:text-blue-700 w-5 h-5" />
+          <FontAwesomeIcon icon={faLinkedin} className="text-gray-600 hover:text-blue-700 w-2 h-2 sm:w-3 sm:h-3 md:w-5 md:h-5 lg:w-5 lg:h-5 xl:w-5 xl:h-5 2xl:w-5 2xl:h-5" />
           </a>
         </div>
       </div>
