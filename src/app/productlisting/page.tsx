@@ -14,7 +14,7 @@ const page = () => {
   return (
     <div>
       <Navbar/>
-   <div className="relative w-full h-[200px] md:h-[200px]">
+   <div className="relative w-full h-[200px] sm:w-full">
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
@@ -23,6 +23,7 @@ const page = () => {
           layout="fill"
           objectFit="cover"
           priority={true} // Optimize for performance
+          className='w-full'
         />
       </div>
 

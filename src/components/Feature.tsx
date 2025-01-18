@@ -20,7 +20,7 @@ const Feature = () => {
       <div className="bg-white shadow-md rounded-lg p-6 flex flex-col items-left text-left relative">
       <FontAwesomeIcon
         icon={faTruck}
-        className="text-black text-lg absolute top-4 left-6"
+        className="w-6 h-6 text-black text-left top-4 "
       />
         <h3 className="text-md font-semibold text-gray-800 mt-6">
         Next day as standard
@@ -33,7 +33,7 @@ const Feature = () => {
       <div className="bg-white shadow-md rounded-lg p-6 flex flex-col items-left text-left relative">
       <FontAwesomeIcon
         icon={faCheckCircle}
-        className="text-black text-lg absolute top-4 left-6"
+        className="w-6 h-6 text-black text-left top-4 "
       />
         <h3 className="text-md font-semibold text-gray-800 mt-6">Made by true artisans</h3>
         <p className="text-sm text-gray-600 mt-2">
@@ -44,7 +44,7 @@ const Feature = () => {
       <div className="bg-white shadow-md rounded-lg p-6 flex flex-col items-left text-left relative">
       <FontAwesomeIcon
         icon={faCreditCard}
-        className="text-black text-lg absolute top-4 left-6"
+        className="w-6 h-6 text-black text-left top-4 "
       />
         <h3 className="text-md font-semibold text-gray-800 mt-6">
         Unbeatable prices
@@ -54,10 +54,10 @@ const Feature = () => {
         </p>
       </div>
       {/* Feature Box 4 */}
-      <div className="bg-white shadow-md rounded-lg p-6 flex flex-col items-left text-left relative">
+      <div className="bg-white shadow-md rounded-lg p-6 flex flex-col items-left text-lef relative">
       <FontAwesomeIcon
         icon={faLeaf}
-        className="text-black text-lg absolute top-4 left-6"
+        className="w-6 h-6 text-black text-left top-4 "
       />
         <h3 className="text-md font-semibold text-gray-800 mt-6">
         Recycled packaging

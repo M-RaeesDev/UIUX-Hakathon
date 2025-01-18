@@ -3,9 +3,10 @@ import Image from 'next/image'
 import React from 'react'
 import productdetail from "../../../public/popularproduct/productdetail.jpeg"
 import Popularproduct from '@/components/Popularproduct'
+import Feature from '@/components/Feature';
 import Emailsignup from "@/components/Emailsignup";
 import Footer from "@/components/Footer";
-import Feature from '@/components/Feature'
+
 
 
 
@@ -99,8 +100,8 @@ const page = () => {
       </div>
     </section>
 
-    <Popularproduct/>
-     <Feature/>
+      <Popularproduct/>
+      <Feature/>
       <Emailsignup/>
       <Footer/>
 

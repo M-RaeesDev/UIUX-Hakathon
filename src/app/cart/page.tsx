@@ -108,7 +108,7 @@ const page = () => {
         {/* Subtotal */}
         <p className="text-xl sm:text-2xl font-bold text-gray-800">Subtotal: $129.98</p>
         {/* Checkout Button */}
-        <button className="mt-4 px-8 py-3 bg-blue-600 text-white font-medium rounded-lg shadow-md hover:bg-blue-700 transition duration-300">
+        <button className="mt-4 px-8 py-3 bg-[#2A254B] text-white font-medium rounded-lg shadow-md hover:bg-[#2A254B] transition duration-300">
           Go to Checkout
         </button>
       </div>
