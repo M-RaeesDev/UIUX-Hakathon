@@ -1,3 +1,18 @@
+AI WEB 3.0 QUARTER TWO
+
+I Created Next js Project Template 2 Custom Pages Custom Components using Nextjs and Tailwind CSS
+
+For icon use Font Awesome For Responsive and attractive use FLEX and GRID
+
+**Pages**
+/aboutus
+/cart
+/productdetail
+/productlisting
+
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
