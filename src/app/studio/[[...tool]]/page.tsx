@@ -17,3 +17,10 @@
 // export default function StudioPage() {
 //   return <NextStudio config={config} />
 // }
+import React from 'react'
+
+export default function page() {
+  return (
+    <div>page</div>
+  )
+}

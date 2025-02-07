@@ -5,3 +5,10 @@
 //   S.list()
 //     .title('Content')
 //     .items(S.documentTypeListItems())
+import React from 'react'
+
+export default function structure() {
+  return (
+    <div>structure</div>
+  )
+}
