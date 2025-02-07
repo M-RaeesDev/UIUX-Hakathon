@@ -26,7 +26,7 @@ const Navbar = () => {
                 <FontAwesomeIcon icon={faShoppingCart} className="text-gray-600 hover:text-gray-900 w-3.5 h-3.5" />
               </button>
             </Link>
-            <Link href="/aboutus">
+            <Link href="/signup">
               <button className="text-gray-600 hover:text-gray-900 text-xl">
                 <FontAwesomeIcon icon={faUser} className="text-gray-600 hover:text-gray-900 w-3.5 h-3.5" />
               </button>
